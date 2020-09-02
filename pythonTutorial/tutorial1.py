@@ -12,3 +12,16 @@ print(viking_song)
 
 print(type(spam_amount))
 
+hat_height_cm = 25
+my_height_cm = 190
+
+total_height_meters = (hat_height_cm + my_height_cm) / 100
+print("Height in meters =", total_height_meters)
+
+print(min(1,2,3))
+
+# help(min)
+print(min(1,2,3))
+print(abs(-32))
+print(int('837') + 1)
+
