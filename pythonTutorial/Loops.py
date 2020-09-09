@@ -67,3 +67,29 @@ numbers = [-3, -2 ,-1 , 1 ,2 ,3]
 print(count_negatives(numbers))
 
 
+def elementwise_greater_than(L, thresh):
+    """Return a list with the same length as L, where the value at index i is
+    True if L[i] is greater than thresh, and False otherwise.
+
+    >>> elementwise_greater_than([1, 2, 3, 4], 2)
+    [False, False, True, True]
+    """
+    pass
+    list = []
+    # for l in L:
+    #     if l > thresh:
+    #         list.append(True)
+    #     else:
+    #         list.append(False)
+    #
+    # return list
+    for l in L:
+        list.append(l > thresh)
+    return list
+
+list = [1, 2 ,3 ,4]
+
+result = elementwise_greater_than(list, 2)
+print(result)
+
+
